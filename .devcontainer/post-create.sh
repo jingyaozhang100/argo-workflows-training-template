@@ -11,4 +11,4 @@ kubectl apply -k ./install/argo-workflows | tee -a ~/.status.log
 
 ## Log things
 echo "post-create complete" >> ~/.status.log
-echo "--------------------" >> ~/.status.log
+ech "--------------------" >> ~/.status.log
