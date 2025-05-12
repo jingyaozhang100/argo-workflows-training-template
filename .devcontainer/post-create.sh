@@ -10,5 +10,5 @@ k3d cluster create --config .devcontainer/k3d.yaml --wait | tee -a ~/.status.log
 kubectl apply -k ./install/argo-workflows | tee -a ~/.status.log
 
 ## Log things
-echo "post-create complete" >> ~/.status.log
+echo "post-create complete successfully" >> ~/.status.log
 ech "--------------------" >> ~/.status.log
